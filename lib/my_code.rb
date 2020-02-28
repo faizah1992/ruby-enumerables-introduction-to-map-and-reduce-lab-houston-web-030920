@@ -53,7 +53,13 @@ end
    i=0 
    while i<source_array.length do
      element=source_array[i]
-     if element == 
+     if !element 
+       return false 
+     end
+     i += 1 
+   end
+  end
+      
  
  
  
