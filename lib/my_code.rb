@@ -44,9 +44,10 @@ while i<source_array.count do
    while  i<source_array.count do 
      element=source_array[i]
      total += element
-   i += 1 
+     i += 1 
+   end 
+   total 
  end 
- total 
- end 
+ 
  
  
